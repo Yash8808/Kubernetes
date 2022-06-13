@@ -1,0 +1,6 @@
+replica set can select pods setwise, replica controller can't.
+
+deployment performs rolling updates. that is create new pod and delete old one in case of update of version.
+
+maxSurge means no of pods that can exceed total no of pods
+maxunavailable means no of pods that can be made unavailable while rollout

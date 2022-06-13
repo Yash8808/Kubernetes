@@ -1,0 +1,8 @@
+kubectl explain pod
+kubectl explain pod -- recursive | less
+kubectl exec -it podname /bin/bash
+kubectl exec -it podname env (show all env variables)
+kubectl get pods --show-labels
+kubectl delete rc --cascade=false name (delete rc without pods associated with it)
+kubectl rollout history deploy name
+kubectl rollout undo --to-revision=2 deployment name
