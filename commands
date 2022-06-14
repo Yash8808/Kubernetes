@@ -6,3 +6,4 @@ kubectl get pods --show-labels
 kubectl delete rc --cascade=false name (delete rc without pods associated with it)
 kubectl rollout history deploy name
 kubectl rollout undo --to-revision=2 deployment name
+kubectl config set-context --current --namespace=name 

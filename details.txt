@@ -4,3 +4,13 @@ deployment performs rolling updates. that is create new pod and delete old one i
 
 maxSurge means no of pods that can exceed total no of pods
 maxunavailable means no of pods that can be made unavailable while rollout
+
+namespaces:
+    public: contains all resources which has no namespace specified
+    kube-public: contains all resources that are to be made public without authentication
+    kube-system: contains all resources related to kubernetes architecture
+    kube-node-lease: heartbeat performance of worker nodes are increase here
+
+
+
+ 
