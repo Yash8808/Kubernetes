@@ -11,6 +11,10 @@ namespaces:
     kube-system: contains all resources related to kubernetes architecture
     kube-node-lease: heartbeat performance of worker nodes are increase here
 
+there are 3 types of secrets:
+    generic
+    docker-registry
+    tls
 
-
- 
+taint: acts as a filter on node
+toleration: applied on pods to resists taints env
