@@ -18,3 +18,7 @@ there are 3 types of secrets:
 
 taint: acts as a filter on node
 toleration: applied on pods to resists taints env
+
+types of volumes:
+    emptyDir: It is present inside the pod
+    hostPath: It is present on a particular node outside any pod

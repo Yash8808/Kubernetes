@@ -7,3 +7,4 @@ kubectl delete rc --cascade=false name (delete rc without pods associated with i
 kubectl rollout history deploy name
 kubectl rollout undo --to-revision=2 deployment name
 kubectl config set-context --current --namespace=name 
+kubectl label nodes worker1 size=small
